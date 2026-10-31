@@ -1,0 +1,70 @@
+﻿body {
+    font-family: Arial;
+    background: linear-gradient(120deg, #f6d365, #fda085);
+}
+
+.container {
+    width: 420px;
+    margin: 40px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+ select, button {
+    width: 100%;
+    padding: 10px;
+    margin: 6px 0;
+    border-radius: 8px;
+}
+input {
+    width: 95%;
+    padding: 10px;
+    margin: 6px 0;
+    border-radius: 8px;
+}
+
+button {
+    background: #667eea;
+    color: white;
+    border: none;
+}
+
+.dashboard {
+    display: flex;
+    gap: 10px;
+}
+
+.card {
+    flex: 1;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+
+.income {
+    background: green;
+}
+
+.expense {
+    background: red;
+}
+
+.balance {
+    background: purple;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #eee;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}

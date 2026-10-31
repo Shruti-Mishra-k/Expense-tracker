@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>📊 Dashboard</h1>
+
+        <div class="dashboard">
+            <div class="card income">
+                <h3>💰 Income</h3>
+                <p>₹<span id="income">0</span></p>
+            </div>
+
+            <div class="card expense">
+                <h3>💸 Expense</h3>
+                <p>₹<span id="expense">0</span></p>
+            </div>
+
+            <div class="card balance">
+                <h3>📊 Balance</h3>
+                <p>₹<span id="balance">0</span></p>
+            </div>
+        </div>
+
+        <h2 style="text-align:center;">📊 Expense Chart</h2>
+
+        <!-- IMPORTANT FIX -->
+        <canvas id="myChart" height="200"></canvas>
+
+        <button onclick="goBack()">⬅ Back</button>
+
+    </div>
+
+    <!-- IMPORTANT ORDER -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="dashboard.js"></script>
+
+</body>
+</html>
